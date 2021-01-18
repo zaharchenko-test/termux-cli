@@ -1,0 +1,38 @@
+clear
+
+
+
+
+
+
+
+
+
+rm ~/../usr/etc/bash.bashrc
+
+touch ~/../usr/etc/bash.bashrc
+
+
+
+
+
+echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then" >> ~/../usr/etc/bash.bashrc
+
+echo "        command_not_found_handle() {" >> ~/../usr/etc/bash.bashrc
+
+echo '                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"' >> ~/../usr/etc/bash.bashrc
+
+echo "        }" >> ~/../usr/etc/bash.bashrc
+
+echo "fi" >> ~/../usr/etc/bash.bashrc
+
+echo "PS1='\$ '" >> ~/../usr/etc/bash.bashrc
+
+
+bash
+
+
+
+
+
+
