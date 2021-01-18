@@ -1,9 +1,18 @@
 clear
 
-
-
-
-
+echo "Welcome to termux-cli!"
+echo ""
+echo "To change the command line interface"
+echo "just enter one of the commands:"
+echo ""
+echo "    Command:       Cli:"
+echo ""
+echo "     cli    >>     termux"
+echo "     cli-a    >>   windows"
+echo "     cli-b   >>    ubuntu"
+echo "     cli-c    >>   kali"
+echo "     root    >>    root"
+echo ""
 
 
 

@@ -11,9 +11,9 @@ wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/cli-a
 
 chmod +x cli-a
 
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/sudo
+wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/root
 
-chmod +x sudo
+chmod +x root
 
 
 

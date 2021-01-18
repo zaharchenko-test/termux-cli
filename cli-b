@@ -1,39 +1,25 @@
 clear
 
-
 rm ~/../usr/etc/bash.bashrc
-
 touch ~/../usr/etc/bash.bashrc
 
-
-
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then" >> ~/../usr/etc/bash.bashrc
-
-echo "        command_not_found_handle() {" >> ~/../usr/etc/bash.bashrc                                                         
+echo "        command_not_found_handle() {" >> ~/../usr/etc/bash.bashrc
 echo '                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"' >> ~/../usr/etc/bash.bashrc
-
 echo "        }" >> ~/../usr/etc/bash.bashrc
-
 echo "fi" >> ~/../usr/etc/bash.bashrc
 echo "" >> ~/../usr/etc/bash.bashrc
 
 
-echo 'echo "Microsoft Windows [ Version 10.0.0 ] < Mod >"' >> ~/../usr/etc/bash.bashrc
-
-echo 'echo "Mod version 1.0, 18.01.2021 Microsoft Corporation. < Windows cmd >"' >>  ~/../usr/etc/bash.bashrc
-
+echo 'nifce=$(ip r show | cut -d " " -f 3)' >> ~/../usr/etc/bash.bashrc
 echo "echo -e '\e[3 q'" >> ~/../usr/etc/bash.bashrc
+echo 'echo -ne "\033]12;#eeeeee\007"' >> ~/../usr/etc/bash.bashrc
 
-echo 'PS1="C:/\W> "' >> ~/../usr/etc/bash.bashrc
 
-
-#echo "echo 'echo -ne `\033]12;#00ff00\007`'" >> ~/../usr/etc/bash.bashrc
+echo "PS1='\[\e[1;32m\]\u@\h\[\e[1;37m\]:\[\e[1;34m\]\w\[\e[1;37m\]\$ '">> ~/../usr/etc/bash.bashrc
 
 
 bash 
-
-
-
 
 
 
