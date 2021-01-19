@@ -1,33 +1,32 @@
+clear
 
-apt update && apt install -y wget proot
+apt-get update && apt-get install -y wget proot git
+
+cd ~/../usr/lib/
+
+git clone https://github.com/zaharchenko-test/termux-cli.git
 
 cd ~/../usr/bin/
 
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/cli
+ln -s ~/../usr/lib/termux-cli/bin/cli
+ln -s ~/../usr/lib/termux-cli/bin/cli-a
+ln -s ~/../usr/lib/termux-cli/bin/cli-b
+ln -s ~/../usr/lib/termux-cli/bin/cli-c
+ln -s ~/../usr/lib/termux-cli/bin/cli-d
+ln -s ~/../usr/lib/termux-cli/bin/root
 
-chmod +x cli
-
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/cli-a
-
-chmod +x cli-a
-
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/cli-b
-
-chmod +x cli-b
-
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/cli-d
-
-chmod +x cli-d
-
-wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/root
-
-chmod +x root
+chmod +x ~/../usr/lib/termux-cli/bin/cli
+chmod +x ~/../usr/lib/termux-cli/bin/cli-a
+chmod +x ~/../usr/lib/termux-cli/bin/cli-b
+chmod +x ~/../usr/lib/termux-cli/bin/cli-c
+chmod +x ~/../usr/lib/termux-cli/bin/cli-d
+chmod +x ~/../usr/lib/termux-cli/bin/root
 
 
 
 cd ~ && cd
 
-apt clean
+apt-get clean
 
 
 
