@@ -1,5 +1,15 @@
 
 clear 
+
+echo "Command Line Interface:"
+echo ""
+echo "cli    >> termux"
+echo "cli-a  >> windows"
+echo "cli-b  >> ubuntu"
+echo "cli-c  >> kali"
+echo "cli-d  >> git-bash"
+
+echo "root   >> root"
  
 cd ~ && cd 
 
@@ -8,6 +18,5 @@ rm -rf ~/../usr/etc/bash.bashrc
 cp ~/../usr/lib/termux-cli/bash/cli/bash.bashrc ~/../usr/etc/ 
 
 bash
-
 
 
