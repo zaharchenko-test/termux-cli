@@ -3,19 +3,19 @@ clear
 
 echo "Command Line Interface:"
 echo ""
-echo "cli    >> termux"
-echo "cli-a  >> windows"
-echo "cli-b  >> ubuntu"
-echo "cli-c  >> kali"
-echo "cli-d  >> git-bash"
+echo "*  cli    >> termux"
+echo "*  cli-a  >> windows"
+echo "*  cli-b  >> ubuntu"
+echo "*  cli-c  >> kali"
+echo "*  cli-d  >> git-bash"
 
-echo "root   >> root"
- 
-cd ~ && cd 
+echo "*  root   >> root"
 
-rm -rf ~/../usr/etc/bash.bashrc 
+echo ""
+echo "Fix bugs - zoom sceen"
 
-cp ~/../usr/lib/termux-cli/bash/cli/bash.bashrc ~/../usr/etc/ 
+
+cp ~/../usr/lib/termux-cli/bash/cli/.bashrc ~/ 
 
 bash
 

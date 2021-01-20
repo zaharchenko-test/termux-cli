@@ -1,11 +1,7 @@
 
 clear 
  
-cd ~ && cd 
-
-rm -rf ~/../usr/etc/bash.bashrc 
-
-cp ~/../usr/lib/termux-cli/bash/cli-e/bash.bashrc ~/../usr/etc/ 
+cp ~/../usr/lib/termux-cli/bash/cli-e/.bashrc ~/ 
 
 bash
 
