@@ -18,6 +18,7 @@ ln -s ~/../usr/lib/termux-cli/bin/cli-d
 ln -s ~/../usr/lib/termux-cli/bin/cli-e
 ln -s ~/../usr/lib/termux-cli/bin/cli-f
 ln -s ~/../usr/lib/termux-cli/bin/root
+ln -s ~/../usr/lib/termux-cli/bin/cursor
 
 
 
@@ -29,6 +30,7 @@ chmod +x ~/../usr/lib/termux-cli/bin/cli-d
 chmod +x ~/../usr/lib/termux-cli/bin/cli-e
 chmod +x ~/../usr/lib/termux-cli/bin/cli-f
 chmod +x ~/../usr/lib/termux-cli/bin/root
+chmod +x ~/../usr/lib/termux-cli/bin/cursor
 
 
 

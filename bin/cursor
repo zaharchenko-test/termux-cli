@@ -1,0 +1,7 @@
+
+cat ~/../usr/lib/termux-cli/bash/cursor/cursor.txt >> ~/.bashrc
+
+bash
+
+
+

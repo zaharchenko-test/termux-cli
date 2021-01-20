@@ -1,0 +1,5 @@
+echo -e '\e[3 q'
+echo -ne "\033]12;#aaaaaa\007"
+
+
+
