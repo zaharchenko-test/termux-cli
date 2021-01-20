@@ -1,5 +1,7 @@
 
 clear 
+
+echo "*  mod-1  *"
  
 cp ~/../usr/lib/termux-cli/bash/cli-e/.bashrc ~/ 
 

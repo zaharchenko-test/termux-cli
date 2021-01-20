@@ -1,19 +1,25 @@
 
 clear 
-
-echo "Command Line Interface:"
+echo "[Command Line Interface:]"
 echo ""
-echo "*  cli    >> termux"
-echo "*  cli-a  >> windows"
-echo "*  cli-b  >> ubuntu"
-echo "*  cli-c  >> kali"
-echo "*  cli-d  >> git-bash"
-
-echo "*  root   >> root"
-
+echo "* * * * * * * * * * * * *"
+echo "*                       *"
+echo "*  cli    >> termux     *"
+echo "*  cli-a  >> windows    *"
+echo "*  cli-b  >> ubuntu     *"
+echo "*  cli-c  >> kali       *"
+echo "*  cli-d  >> git-bash   *"
+echo "*  cli-e  >> mod-1      *"
+echo "*  cli-f  >> mod-2      *"
+echo "*                       *"
+echo "* * * * * * * * * * * * *"
+echo "*  cursor >> cursor ≥   *"
+echo "*  root   >> fake-root  *"
+echo "*                       *"
+echo "* * * * * * * * * * * * *"
 echo ""
-echo "Fix bugs - zoom sceen"
-
+echo "[ Fix bugs » zoom sceen ]"
+echo ""
 
 cp ~/../usr/lib/termux-cli/bash/cli/.bashrc ~/ 
 

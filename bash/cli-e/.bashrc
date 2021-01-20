@@ -7,7 +7,7 @@ c='\[\e[1;36m\]'
 w='\[\e[1;37m\]'
  
 
-PS1="\n$r╔═[ $c\@ $r] [ $c\V $r] [ $c$nifce $r] [ $c\W $r] [ $c\j $r]\n$r║ \n$r╚═[$c th3unkn0n $r] $c>> " 
+PS1="\n$r╔═[ $c\@ $r] [ $c\V $r] [ $c$nifce $r] [ $c\W $r] [ $c\j $r]\n$r║ \n$r╚═[$c \u@\h $r] $c>> " 
 
 
 
