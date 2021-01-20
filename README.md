@@ -10,3 +10,5 @@
 ######   chmod +x install-cli.sh
 
 ######   ./install-cli.sh
+
+######   cli
