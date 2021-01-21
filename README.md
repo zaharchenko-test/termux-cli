@@ -1,5 +1,6 @@
 # termux-cli
 
+### install :
 
 ######   apt-get update
 
@@ -12,3 +13,5 @@
 ######   ./install-cli.sh
 
 ######   cli
+
+### version - 1.0
