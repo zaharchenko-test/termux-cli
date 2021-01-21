@@ -1,0 +1,21 @@
+
+clear
+
+cat ~/../usr/lib/termux-cli/banner/motd/motd > ~/../usr/etc/motd
+
+echo "[    Termux Banner:     ]"
+echo ""
+echo "* * * * * * * * * * * * *"
+echo "*                       *"
+echo "*  banner   >>  termux  *"
+echo "*  motd-a   >>  2021-♡  *"
+echo "*  motd-b   >>          *"
+echo "*  motd-c   >>          *"
+echo "*                       *"
+echo "* * * * * * * * * * * * *"
+echo ""
+echo "[   open new window!    ]"
+echo ""
+
+
+

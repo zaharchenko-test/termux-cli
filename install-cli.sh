@@ -19,7 +19,10 @@ ln -s ~/../usr/lib/termux-cli/bin/cli-e
 ln -s ~/../usr/lib/termux-cli/bin/cli-f
 ln -s ~/../usr/lib/termux-cli/bin/root
 ln -s ~/../usr/lib/termux-cli/bin/cursor
-
+ln -s ~/../usr/lib/termux-cli/bin/banner
+ln -s ~/../usr/lib/termux-cli/bin/motd-a
+ln -s ~/../usr/lib/termux-cli/bin/motd-b
+ln -s ~/../usr/lib/termux-cli/bin/motd-c
 
 
 chmod +x ~/../usr/lib/termux-cli/bin/cli
@@ -31,7 +34,10 @@ chmod +x ~/../usr/lib/termux-cli/bin/cli-e
 chmod +x ~/../usr/lib/termux-cli/bin/cli-f
 chmod +x ~/../usr/lib/termux-cli/bin/root
 chmod +x ~/../usr/lib/termux-cli/bin/cursor
-
+chmod +x ~/../usr/lib/termux-cli/bin/banner
+chmod +x ~/../usr/lib/termux-cli/bin/motd-a
+chmod +x ~/../usr/lib/termux-cli/bin/motd-b
+chmod +x ~/../usr/lib/termux-cli/bin/motd-c
 
 
 cd ~ && cd

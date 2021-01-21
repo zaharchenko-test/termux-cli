@@ -15,13 +15,14 @@ echo "*                       *"
 echo "* * * * * * * * * * * * *"
 echo "*  cursor >> cursor ≥   *"
 echo "*  root   >> fake-root  *"
+echo "*  banner >> banner :)  *"
 echo "*                       *"
 echo "* * * * * * * * * * * * *"
 echo ""
 echo "[ Fix bugs » zoom sceen ]"
 echo ""
 
-cp ~/../usr/lib/termux-cli/bash/cli/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli/.bashrc > ~/.bashrc 
 
 bash
 

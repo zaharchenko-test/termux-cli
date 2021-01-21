@@ -4,7 +4,7 @@ clear
 
 echo "*  cli ubuntu  *"
  
-cp ~/../usr/lib/termux-cli/bash/cli-b/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli-b/.bashrc > ~/.bashrc
 
 bash
 

@@ -4,7 +4,7 @@ clear
 
 echo "*  cli git  *"
  
-cp ~/../usr/lib/termux-cli/bash/cli-d/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli-d/.bashrc > ~/.bashrc 
 
 bash
 

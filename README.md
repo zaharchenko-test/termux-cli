@@ -2,16 +2,20 @@
 
 ### install :
 
-######   apt-get update
+<hr />
 
-######   apt-get install wget -y
+    apt-get update
 
-######   wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/install-cli.sh
+    apt-get install wget -y
 
-######   chmod +x install-cli.sh
+    wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/install-cli.sh
 
-######   ./install-cli.sh
+    bash install-cli.sh
 
-######   cli
+    cli
 
-### version - 1.0
+<hr />
+
+###### command line interface of many systems, and not only ...
+
+### version - 1.1

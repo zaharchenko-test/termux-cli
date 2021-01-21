@@ -3,7 +3,7 @@ clear
 
 echo "*  cli kali  *"
  
-cp ~/../usr/lib/termux-cli/bash/cli-c/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli-c/.bashrc > ~/.bashrc 
 
 bash
 

@@ -3,7 +3,7 @@ clear
 
 echo "*  mod-1  *"
  
-cp ~/../usr/lib/termux-cli/bash/cli-e/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli-e/.bashrc > ~/.bashrc 
 
 bash
 

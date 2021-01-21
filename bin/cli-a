@@ -2,7 +2,7 @@
 
 clear 
  
-cp ~/../usr/lib/termux-cli/bash/cli-a/.bashrc ~/ 
+cat ~/../usr/lib/termux-cli/bash/cli-a/.bashrc > ~/.bashrc 
 
 bash
 
