@@ -18,4 +18,4 @@
 
 ##### command line interface of many systems, and not only ...
 
-### version - 1.2
+### version - 1.3
