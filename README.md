@@ -16,6 +16,6 @@
 
 <hr />
 
-###### command line interface of many systems, and not only ...
+##### command line interface of many systems, and not only ...
 
-### version - 1.1
+### version - 1.2

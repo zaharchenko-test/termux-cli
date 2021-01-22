@@ -23,6 +23,7 @@ ln -s ~/../usr/lib/termux-cli/bin/banner
 ln -s ~/../usr/lib/termux-cli/bin/motd-a
 ln -s ~/../usr/lib/termux-cli/bin/motd-b
 ln -s ~/../usr/lib/termux-cli/bin/motd-c
+ln -s ~/../usr/lib/termux-cli/bin/etc
 
 
 chmod +x ~/../usr/lib/termux-cli/bin/cli
@@ -38,9 +39,14 @@ chmod +x ~/../usr/lib/termux-cli/bin/banner
 chmod +x ~/../usr/lib/termux-cli/bin/motd-a
 chmod +x ~/../usr/lib/termux-cli/bin/motd-b
 chmod +x ~/../usr/lib/termux-cli/bin/motd-c
+chmod +x ~/../usr/lib/termux-cli/bin/etc
 
 
 cd ~ && cd
+
+mkdir ~/.termux/
+touch ~/.termux/termux.properties
+cat ~/../usr/lib/termux-cli/etc/termux.properties > ~/.termux/termux.properties
 
 apt-get clean
 
