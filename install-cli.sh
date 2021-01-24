@@ -2,7 +2,7 @@
 
 clear
 
-apt-get update && apt-get install -y wget proot git
+apt-get update && apt-get install -y wget proot git bash-completion
 
 cd ~/../usr/lib/
 
@@ -52,13 +52,16 @@ mkdir ~/.termux/
 touch ~/.termux/termux.properties
 cat ~/../usr/lib/termux-cli/etc/termux.properties > ~/.termux/termux.properties
 
+ln -s ../usr/lib/termux-cli/
+
 apt-get clean
 
-
+echo ""
 echo "instaling done ......."
-
+echo ""
 echo "run command  >>  'cli'"
+echo ""
 
 termux-reload-settings
 
-
+rm -rf ~/install-cli.sh
