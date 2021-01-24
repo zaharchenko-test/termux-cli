@@ -1,0 +1,13 @@
+clear
+
+apt-get update
+
+apt-get install git yarn nodejs python build-essential -y
+
+yarn global add code-server
+
+clear
+
+echo ""
+echo "install done, run code-server"
+echo ""

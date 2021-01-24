@@ -2,12 +2,14 @@ clear
 echo ""
 echo "[ other commands: ]"
 echo ""
-echo "* termux-reload-settings :"
-echo "        -Symbols panel < extra-keys >"
-echo ""
 echo "* install-kali :"
 echo "        -Install kali, start - 'kali'"
 echo ""
-
+echo "* install-ubuntu :"
+echo "        -Install ubuntu, start - 'ubuntu'"
+echo ""
+echo "* install-vscode :"
+echo "        -Install vscode, start - 'code-server'"
+echo ""
 
 

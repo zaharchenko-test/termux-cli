@@ -6,9 +6,7 @@
 
     apt-get update
 
-    apt-get install wget -y
-
-    wget https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/install-cli.sh
+    curl -O https://raw.githubusercontent.com/zaharchenko-test/termux-cli/master/install-cli.sh
 
     bash install-cli.sh
 
@@ -18,4 +16,4 @@
 
 ##### command line interface of many systems, and not only ...
 
-### version - 1.3
+### version - 1.4
