@@ -24,6 +24,8 @@ ln -s ~/../usr/lib/termux-cli/bin/motd-a
 ln -s ~/../usr/lib/termux-cli/bin/motd-b
 ln -s ~/../usr/lib/termux-cli/bin/motd-c
 ln -s ~/../usr/lib/termux-cli/bin/etc
+ln -s ~/../usr/lib/termux-cli/bin/install-kali
+ln -s ~/../usr/lib/termux-cli/bin/install-ubuntu
 
 
 chmod +x ~/../usr/lib/termux-cli/bin/cli
@@ -40,6 +42,8 @@ chmod +x ~/../usr/lib/termux-cli/bin/motd-a
 chmod +x ~/../usr/lib/termux-cli/bin/motd-b
 chmod +x ~/../usr/lib/termux-cli/bin/motd-c
 chmod +x ~/../usr/lib/termux-cli/bin/etc
+chmod +x ~/../usr/lib/termux-cli/bin/install-kali
+chmod +x ~/../usr/lib/termux-cli/bin/install-ubuntu
 
 
 cd ~ && cd

@@ -1,12 +1,13 @@
 clear 
 
 apt-get update
-apt-get install wget openssl-tool proot -y 
+apt-get install tar curl wget openssl-tool proot -y
 hash -r
+
 mkdir ~/../usr/lib/termux-cli-kali
 cd ~/../usr/lib/termux-cli-kali/
 cp ~/../usr/lib/termux-cli/etc/kali.sh ~/../usr/lib/termux-cli-kali/
-chmod +x kali.sh 
+chmod +x kali.sh
 
 ./kali.sh
 
@@ -15,9 +16,7 @@ cd ~/../usr/bin
 ln -s ~/../usr/lib/termux-cli/bin/kali
 chmod +x ~/../usr/lib/termux-cli/bin/kali
 
-cat ~/../usr/lib/termux-cli/etc/bash.bashrc > ~/../usr/lib/termux-cli-kali/kali-fs/etc/bash.bashrc
+cat ~/../usr/lib/termux-cli/etc/kali.bashrc > ~/../usr/lib/termux-cli-kali/kali-fs/etc/bash.bashrc
+cat ~/../usr/lib/termux-cli/etc/kali.min.bashrc > ~/../usr/lib/termux-cli-kali/kali-fs/root/.bashrc
 
-
-echo "installing done , start kali-linux >> * kali * "
-
-
+echo "installing done , start ubuntu-linux >> * kali * "

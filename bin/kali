@@ -1,6 +1,3 @@
-clear
+clear 
 
 bash ~/../usr/lib/termux-cli-kali/start-kali.sh
-
-
-

@@ -1,0 +1,23 @@
+clear 
+
+apt-get update
+apt-get install tar curl wget openssl-tool proot -y 
+hash -r
+mkdir ~/../usr/lib/termux-cli-ubuntu
+cd ~/../usr/lib/termux-cli-ubuntu/
+cp ~/../usr/lib/termux-cli/etc/ubuntu.sh ~/../usr/lib/termux-cli-ubuntu/
+chmod +x ubuntu.sh 
+
+./ubuntu.sh
+
+cd ~/../usr/bin
+
+ln -s ~/../usr/lib/termux-cli/bin/ubuntu
+chmod +x ~/../usr/lib/termux-cli/bin/ubuntu
+
+cat ~/../usr/lib/termux-cli/etc/ubuntu.bashrc > ~/../usr/lib/termux-cli-ubuntu/ubuntu-fs/etc/bash.bashrc
+cat ~/../usr/lib/termux-cli/etc/ubuntu.min.bashrc > ~/../usr/lib/termux-cli-ubuntu/ubuntu-fs/root/.bashrc
+
+echo "installing done , start ubuntu-linux >> * ubuntu * "
+
+

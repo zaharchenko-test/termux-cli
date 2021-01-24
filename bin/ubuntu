@@ -1,0 +1,6 @@
+clear
+
+bash ~/../usr/lib/termux-cli-ubuntu/start-ubuntu.sh
+
+
+
