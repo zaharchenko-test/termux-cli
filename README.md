@@ -8,6 +8,8 @@
 
     bash install-cli.sh
 
+    # bash cli
+
 <hr />
 
 ##### command line interface of many systems, and not only ...
