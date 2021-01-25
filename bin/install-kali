@@ -18,5 +18,7 @@ chmod +x ~/../usr/lib/termux-cli/bin/kali
 
 cat ~/../usr/lib/termux-cli/etc/kali.bashrc > ~/../usr/lib/termux-cli-kali/kali-fs/etc/bash.bashrc
 cat ~/../usr/lib/termux-cli/etc/kali.min.bashrc > ~/../usr/lib/termux-cli-kali/kali-fs/root/.bashrc
+cp ~/../usr/lib/termux-cli/etc/msfinstall ~/../usr/lib/termux-cli-kali/kali-fs/root
+
 
 echo "installing done , start ubuntu-linux >> * kali * "

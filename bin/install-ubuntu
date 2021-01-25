@@ -17,6 +17,7 @@ chmod +x ~/../usr/lib/termux-cli/bin/ubuntu
 
 cat ~/../usr/lib/termux-cli/etc/ubuntu.bashrc > ~/../usr/lib/termux-cli-ubuntu/ubuntu-fs/etc/bash.bashrc
 cat ~/../usr/lib/termux-cli/etc/ubuntu.min.bashrc > ~/../usr/lib/termux-cli-ubuntu/ubuntu-fs/root/.bashrc
+cp ~/../usr/lib/termux-cli/etc/msfinstall ~/../usr/lib/termux-cli-ubuntu/ubuntu-fs/root
 
 echo "installing done , start ubuntu-linux >> * ubuntu * "
 
