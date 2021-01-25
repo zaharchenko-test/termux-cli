@@ -14,4 +14,4 @@
 
 ##### command line interface of many systems, and not only ...
 
-### version - 1.5
+### version - 1.6

@@ -56,7 +56,7 @@ command+=" -b ubuntu-fs/root:/dev/shm"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to / 
-#command+=" -b /sdcard"
+command+=" -b /sdcard"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
 command+=" HOME=/root"
@@ -72,10 +72,10 @@ else
 fi
 EOM
 
-echo "fixing shebang of $bin"
+echo ""
 termux-fix-shebang $bin
-echo "making $bin executable"
+echo ""
 chmod +x $bin
-echo "removing image for some space"
+echo ""
 rm $tarball
-echo "You can now launch Ubuntu with the ./${bin} script"
+echo ""
