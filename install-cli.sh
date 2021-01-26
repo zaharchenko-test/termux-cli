@@ -2,7 +2,7 @@
 
 clear
 
-apt-get update && apt-get install -y wget proot git bash-completion
+apt-get update && apt-get install -y wget proot git bash-completion fish figlet
 
 cd ~/../usr/lib/
 
@@ -23,6 +23,9 @@ ln -s ~/../usr/lib/termux-cli/bin/banner
 ln -s ~/../usr/lib/termux-cli/bin/motd-a
 ln -s ~/../usr/lib/termux-cli/bin/motd-b
 ln -s ~/../usr/lib/termux-cli/bin/motd-c
+ln -s ~/../usr/lib/termux-cli/bin/motd-d
+ln -s ~/../usr/lib/termux-cli/bin/motd-e
+ln -s ~/../usr/lib/termux-cli/bin/motd-f
 ln -s ~/../usr/lib/termux-cli/bin/etc
 ln -s ~/../usr/lib/termux-cli/bin/install-kali
 ln -s ~/../usr/lib/termux-cli/bin/install-ubuntu
@@ -41,6 +44,9 @@ chmod +x ~/../usr/lib/termux-cli/bin/banner
 chmod +x ~/../usr/lib/termux-cli/bin/motd-a
 chmod +x ~/../usr/lib/termux-cli/bin/motd-b
 chmod +x ~/../usr/lib/termux-cli/bin/motd-c
+chmod +x ~/../usr/lib/termux-cli/bin/motd-d
+chmod +x ~/../usr/lib/termux-cli/bin/motd-e
+chmod +x ~/../usr/lib/termux-cli/bin/motd-f
 chmod +x ~/../usr/lib/termux-cli/bin/etc
 chmod +x ~/../usr/lib/termux-cli/bin/install-kali
 chmod +x ~/../usr/lib/termux-cli/bin/install-ubuntu
