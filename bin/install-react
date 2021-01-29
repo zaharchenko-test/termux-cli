@@ -1,0 +1,20 @@
+apt-get update && apt-get install nodejs-ltc -y
+apt-get update 
+apt-get install nodejs-ltc -y
+
+npm install -g expo-cli
+
+npm cache verify
+
+echo ""
+
+echo "expo init test-app"
+
+echo ""
+
+echo "expo login"
+
+echo ""
+
+echo "expo build:android"
+echo ""

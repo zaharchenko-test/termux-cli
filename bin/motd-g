@@ -1,0 +1,10 @@
+
+
+cat ~/../usr/lib/termux-cli/banner/motd-g/motd > ~/../usr/etc/motd
+
+echo ""
+echo "[   open new window!    ]"
+echo ""
+
+
+

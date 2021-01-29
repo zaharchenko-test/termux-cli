@@ -1,0 +1,12 @@
+
+
+clear 
+
+echo "*  cli ubuntu  *"
+ 
+cat ~/../usr/lib/termux-cli/bash/cli-g/.bashrc > ~/.bashrc
+
+bash
+
+
+

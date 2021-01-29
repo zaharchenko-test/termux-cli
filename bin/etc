@@ -11,5 +11,7 @@ echo ""
 echo "* install-vscode :"
 echo "        -Install vscode, start - 'code-server'"
 echo ""
-
+echo "* install-react :"
+echo "        -Install react, start - 'expo init app'"
+echo ""
 
