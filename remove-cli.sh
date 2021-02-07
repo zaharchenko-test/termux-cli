@@ -50,6 +50,7 @@ rm -rf ~/remove-cli.sh
 
 echo ""
 echo "remove done ......."
+echo "¯\_(ツ)_/¯"
 echo ""
 
 apt-get clean

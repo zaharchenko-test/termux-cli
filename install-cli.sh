@@ -2,7 +2,7 @@
 
 clear
 
-apt-get update && apt-get install -y wget proot git bash-completion fish figlet
+apt-get update && apt-get install -y wget proot git bash-completion fish figlet busybox termux-api tsu
 
 cd ~/../usr/lib/
 
